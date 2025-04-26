@@ -1,0 +1,44 @@
+/* Main */
+:root {
+    --backgroundWhite: #ecf0f3;
+    --backgroundGrey: #d4d7d9;
+    --textBlack: #3c3e41;
+    --primary: #fd4520;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--textBlack);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Colors */
+.backgroundWhite {
+    background-color: var(--backgroundWhite);
+}
+
+.textPrimary {
+    color: var(--primary) !important;
+}
+
+.bottomBorderPrimary {
+    border-bottom: 2px solid var(--primary) !important;
+}
+
+.backgroundGradient {
+    background: linear-gradient(
+        to top left,
+        var(--backgroundWhite),
+        var(--backgroundGrey)
+    );
+}
+
+/* Custom */
+.titleAndPortrait {
+    height: 150px;
+}
