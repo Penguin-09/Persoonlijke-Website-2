@@ -4,6 +4,7 @@
     --backgroundGrey: #d4d7d9;
     --textBlack: #3c3e41;
     --primary: #fd4520;
+    --primaryLight: #e65b40;
 }
 
 body {
@@ -31,12 +32,17 @@ a:hover {
 }
 
 .buttonPrimary {
-    background-color: var(--primary);
+    background: linear-gradient(
+        to top left,
+        var(--primary),
+        var(--primaryLight)
+    );
     color: var(--backgroundWhite);
     border: 2px solid var(--primary);
 }
 
 .buttonPrimary:hover {
+    background: none;
     background-color: var(--backgroundWhite);
     color: var(--primary);
     border: 2px solid var(--primary);
@@ -48,4 +54,25 @@ a:hover {
         var(--backgroundWhite),
         var(--backgroundGrey)
     );
+}
+
+/* Custom */
+.contactCard {
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    .contactCard {
+        width: 33%;
+    }
+}
+
+.projectCard {
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    .projectCard {
+        width: 25%;
+    }
 }
