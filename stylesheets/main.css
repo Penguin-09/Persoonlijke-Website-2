@@ -18,16 +18,28 @@ a:hover {
 }
 
 /* Colors */
-.backgroundWhite {
-    background-color: var(--backgroundWhite);
-}
-
 .textPrimary {
     color: var(--primary) !important;
 }
 
 .bottomBorderPrimary {
-    border-bottom: 2px solid var(--primary) !important;
+    border-bottom: 2px solid var(--primary);
+}
+
+.backgroundWhite {
+    background-color: var(--backgroundWhite);
+}
+
+.buttonPrimary {
+    background-color: var(--primary);
+    color: var(--backgroundWhite);
+    border: 2px solid var(--primary);
+}
+
+.buttonPrimary:hover {
+    background-color: var(--backgroundWhite);
+    color: var(--primary);
+    border: 2px solid var(--primary);
 }
 
 .backgroundGradient {
@@ -36,9 +48,4 @@ a:hover {
         var(--backgroundWhite),
         var(--backgroundGrey)
     );
-}
-
-/* Custom */
-.titleAndPortrait {
-    height: 150px;
 }

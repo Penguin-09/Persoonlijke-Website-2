@@ -16,9 +16,9 @@
         />
         <link rel="stylesheet" href="stylesheets/main.css" />
     </head>
-    <body class="backgroundWhite px-3">
+    <body class="backgroundWhite px-4 fs-5">
         <!-- HEADER -->
-        <div class="sticky-top pt-3">
+        <div class="sticky-top pt-4">
             <header
                 class="d-flex justify-content-between align-items-center p-3 rounded-3 shadow backgroundGradient"
             >
@@ -64,7 +64,9 @@
 
                                 <!-- Skills -->
                                 <li class="nav-item">
-                                    <a class="nav-link px-3" href="#">Skills</a>
+                                    <a class="nav-link px-3" href="#"
+                                        >Vaardigheden</a
+                                    >
                                 </li>
 
                                 <!-- Projecten -->
@@ -87,52 +89,192 @@
             </header>
         </div>
 
-        <!-- HERO -->
+        <!-- MAIN -->
         <section
-            class="d-flex flex-column flex-lg-row justify-content-around gap-3 mt-3"
+            class="d-flex flex-column flex-lg-row justify-content-around mt-4 gap-4"
         >
-            <!-- Title and portrait -->
-            <div
-                class="d-flex justify-content-between p-3 col-lg-7 shadow rounded-3 backgroundGradient titleAndPortrait"
-            >
-                <div class="d-flex flex-column justify-content-center">
-                    <h1>Hoi, ik ben <span class="textPrimary">Son</span></h1>
-                    <h2>
-                        en ik ben
-                        <span class="textPrimary"
-                            >Full-stack web developer</span
-                        >
-                    </h2>
+            <!-- Left -->
+            <div class="col-lg-8 d-flex flex-column gap-4">
+                <!-- Title and portrait -->
+                <div
+                    class="d-flex flex-column flex-sm-row text-center text-lg-start justify-content-between p-3 shadow rounded-3 h-auto backgroundGradient"
+                >
+                    <div class="d-flex flex-column justify-content-center">
+                        <h1 class="display-2">
+                            Hoi, ik ben <span class="textPrimary">Son</span>
+                        </h1>
+                        <h2>
+                            en ik ben
+                            <span class="textPrimary"
+                                >Full-stack web developer</span
+                            >
+                        </h2>
+                    </div>
+
+                    <img
+                        class="rounded-3"
+                        src="images/portrait.png"
+                        alt="portrait"
+                    />
                 </div>
 
-                <img
-                    class="rounded-3"
-                    style="height: 300px"
-                    src="images/portrait.png"
-                    alt="portrait"
-                />
+                <!-- About me -->
+                <div
+                    class="p-3 text-center shadow rounded-3 h-100 backgroundGradient"
+                >
+                    <h1 class="textPrimary">Over mij</h1>
+
+                    <p class="mb-3">
+                        Ik ben momenteel een student bij
+                        <a
+                            class="bottomBorderPrimary"
+                            href="https://www.bit-academy.nl/"
+                            target="_blank"
+                            >Bit Academy</a
+                        >. Ik heb ervaring met veel verschillende technologieën
+                        en programmeertalen, en ik ben vooral geïnteresseerd in
+                        het maken van webapplicaties.
+                    </p>
+
+                    <p class="mb-3">
+                        Ik was al van jong af aan geïnteresseerd in computers en
+                        programmeren. Daarom ging ik voor een groot deel van
+                        mijn jeugd elke vakantie naar
+                        <a
+                            class="bottomBorderPrimary"
+                            href="https://iqbegrijp.nl/programmeerkamp/"
+                            target="_blank"
+                            >programmeercursussen en kampen</a
+                        >, waar ik veel leerde over de basisprincipes van
+                        programmeren. Na vijf jaar HAVO te hebben gevolgd op het
+                        Fons Vitae Lyceum in Amsterdam, merkte ik dat de
+                        traditionele manier van lesgeven niet bij mij past.
+                        Daarom ging ik op zoek naar een studie die niet alleen
+                        aansloot bij mijn interesses, maar waar ik ook op mijn
+                        eigen manier kon leren. Zo kwam ik terecht bij de Bit
+                        Academy.
+                    </p>
+
+                    <p>
+                        Ik was nog maar een paar dagen van start toen ik al wist
+                        dat Bit Academy precies bij mij past. De manier van
+                        lesgeven was precies wat ik zocht: geen traditionele
+                        lessen, maar zelfstandig werken aan projecten en
+                        opdrachten. Hierdoor kon ik op mijn eigen tempo werken,
+                        waardoor ik ontzettend veel geleerd heb ik een korte
+                        tijd.
+                    </p>
+                </div>
             </div>
 
-            <!-- Intro -->
-            <div
-                class="col-lg-3 p-3 shadow rounded-3 backgroundGradient"
-                style="height: min-content"
-            >
-                <h1 class="textPrimary">Hoi!</h1>
+            <!-- Right -->
+            <div class="d-flex flex-column gap-4 h-100">
+                <!-- Intro -->
+                <div
+                    class="d-flex flex-column p-3 shadow rounded-3 text-center backgroundGradient h-100"
+                >
+                    <h1 class="textPrimary">Hoi!</h1>
 
-                <p class="fs-5 m-0">
-                    Ik ben Son, een enthousiaste full-stack developer en student
-                    aan de
-                    <a
-                        class="bottomBorderPrimary"
-                        href="https://www.bit-academy.nl/"
-                        target="_blank"
-                        >Bit Academy</a
-                    >. Ik programmeer al sinds ik jong ben en ben altijd
-                    gefascineerd geweest door het bouwen van programma's en
-                    websites. In mijn vrije tijd werk ik aan persoonlijke
-                    projecten en game ik graag.
-                </p>
+                    <p class="mb-0">
+                        Ik ben Son, een enthousiaste full-stack web developer en
+                        student bij
+                        <a
+                            class="bottomBorderPrimary"
+                            href="https://www.bit-academy.nl/"
+                            target="_blank"
+                            >Bit Academy</a
+                        >. Ik programmeer al sinds ik jong ben en ben altijd
+                        gefascineerd geweest door het bouwen van programma's en
+                        websites. In mijn vrije tijd werk ik aan persoonlijke
+                        projecten en game ik graag.
+                    </p>
+                </div>
+
+                <!-- Skills -->
+                <div
+                    class="d-flex flex-column p-3 shadow rounded-3 text-center backgroundGradient h-100"
+                >
+                    <h1 class="textPrimary">Skills</h1>
+                </div>
+
+                <!-- Certificates -->
+                <div
+                    class="d-flex flex-column p-3 shadow rounded-3 text-center backgroundGradient h-100"
+                >
+                    <h1 class="textPrimary">Certificaten</h1>
+
+                    <p>
+                        Neem het niet alleen van mij aan! Hieronder vind je een
+                        overzicht van een paar certificaten die ik heb behaald,
+                        als bewijs van mijn vaardigheden en wat ik doe bij mijn
+                        studie op Bit Academy.
+                    </p>
+
+                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                        <a
+                            href="certificates/Back-end Rookie.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >Back-end Rookie</a
+                        >
+
+                        <a
+                            href="certificates/PHP Novice.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >PHP</a
+                        >
+
+                        <a
+                            href="certificates/C# Novice.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >C#</a
+                        >
+
+                        <a
+                            href="certificates/Database Advanced.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >Databases</a
+                        >
+
+                        <a
+                            href="certificates/Object Oriented Programming Intro.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >OOP</a
+                        >
+
+                        <a
+                            href="certificates/Front-end Rookie.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >Front-end Rookie</a
+                        >
+
+                        <a
+                            href="certificates/HTML_CSS Advanced.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >HTML/CSS</a
+                        >
+
+                        <a
+                            href="certificates/JavaScript Novice.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >Javascript</a
+                        >
+
+                        <a
+                            href="certificates/Bootstrap.pdf"
+                            target="_blank"
+                            class="btn buttonPrimary"
+                            >Bootstrap</a
+                        >
+                    </div>
+                </div>
             </div>
         </section>
 
