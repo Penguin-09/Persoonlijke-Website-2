@@ -76,3 +76,9 @@ a:hover {
         width: 25%;
     }
 }
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1.25rem !important;
+    }
+}
